@@ -301,6 +301,13 @@ $ git tag -a <etiqueta>
 
 ## Actualizar & Publicar
 
+##### Los tres comandos de GITHUB para hacer un push de código que tengamos en local a un nuevo repo remoto
+```
+$ git remote add origin https://github.com/Fran-Delgado/prueba.git
+$ git branch -M main
+$ git push -u origin main
+```
+
 ##### Listar todos los remotos configurados actuales:
 ```
 $ git remote -v
